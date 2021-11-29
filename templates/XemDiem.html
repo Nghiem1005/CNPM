@@ -1,0 +1,139 @@
+{% extends 'layout/base.html' %}
+{% block title %}
+	ĐĂNG NHẬP
+{% endblock %}
+
+{% block content %}
+
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+                <div class="page-content-wrapper">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10 ">
+                            <div class="portlet box blue">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        Xem điểm
+                                    </div>
+                                </div>
+                                <div class="portlet-body">
+                                    <div class="table-responsive">
+                                        <form role="form">
+                                             <div class="form-body">
+                                        <div class="form-group">
+											<label>Chọn lớp</label>
+											<select name="lop" class="form-control">
+												<option value="10">Lớp 10</option>
+												<option value="11">Lớp 11</option>
+												<option value="12">Lớp 12</option>
+											</select>
+										</div>
+                                                  <div class="form-group">
+                                                       <label>Học kỳ</label>
+                                                       <div class="radio-list">
+                                                           <label>
+                                                           <input type="radio" name="optionsRadios" id="optionsRadios1" value="1" checked> Học kỳ 1</label>
+                                                           <label>
+                                                           <input type="radio" name="optionsRadios" id="optionsRadios2" value="2"> Học kỳ 2 </label>
+                                                       </div>
+                                                   </div>
+                                             </div>
+                                        </form>
+                                        <table class="table table-bordered">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                 #
+                                            </th>
+                                            <th>
+                                                 Tên học sinh
+                                            </th>
+                                            <th>
+                                             Môn học
+                                        </th>
+                                            <th>
+                                                 Điểm 15p
+                                            </th>
+                                            <th>
+                                                 Điểm 1 tiết
+                                            </th>
+                                            <th>
+                                                 Điểm cuối học kỳ
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                 1
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                 2
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                 3
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+                                            <td>
+                                                 Table cell
+                                            </td>
+
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+{% endblock %}

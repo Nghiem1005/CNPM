@@ -1,0 +1,147 @@
+{% extends 'layout/base.html' %}
+{% block title %}
+	ĐĂNG NHẬP
+{% endblock %}
+
+{% block content %}
+
+        <!-- BEGIN CONTAINER -->
+        <div class="page-container">
+                <div class="page-content-wrapper">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10 ">
+                            <div class="portlet box blue">
+                                <div class="portlet-title">
+                                    <div class="caption">
+                                        Thông tin học sinh
+                                    </div>
+                                </div>
+                                <div class="portlet-body">
+                                    <div class="table-scrollable">
+                                        <form role="form">
+                                            <div class="form-body">
+                                                <div class="form-group">
+                                                    <label>Họ tên</label>
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon">
+                                                        <i class="fas fa-user"></i>
+                                                        </span>
+                                                        <input type="text" class="form-control" placeholder="Họ tên">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group inline" style="padding-right: 0;">
+                                                <div class="form-group inline">
+                                                    <label class="label_css">Lớp học</label>
+                                                    <select name="lop" class="form-control select">
+                                                        <option value="10">Lớp 10</option>
+                                                        <option value="11">Lớp 11</option>
+                                                        <option value="12">Lớp 12</option>
+                                                    </select>
+                                                </div>
+                                            <div class="form-group inline">
+                                                <label class="label_css">Môn học</label>
+                                                <select name="lop" class="form-control select">
+                                                    <option value="10">Toán</option>
+                                                    <option value="11">DSMon</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group inline">
+                                                <label class="label_css" style="width: 20%;">Học kỳ</label>
+                                                <div class="radio-list">
+                                                    <label class="radio_label_css">
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="1" checked> Học kỳ 1</label>
+                                                    <label class="radio_label_css">
+                                                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="2"> Học kỳ 2 </label>
+                                                </div>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button id="sample_editable_1_new" class="btn green">
+                                                Tìm kiếm <i class="fas fa-save"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                       </form>
+                                        <table class="table table-bordered table-hover">
+                                        <thead>
+                                        <tr>
+                                            <th>
+                                                 STT
+                                            </th>
+                                            <th>
+                                                 Họ tên
+                                            </th>
+                                            <th>
+                                                 Lớp
+                                            </th>
+                                            <th>
+                                                 TB Học kỳ 1
+                                            </th>
+                                            <th>
+                                                TB Học kỳ 2
+                                            </th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                2
+                                           </td>
+                                            <td>
+                                                 Nguyễn Hữu Tín
+                                            </td>
+                                            <td>
+                                                 11A1
+                                            </td>
+                                            <td>
+                                                 10
+                                            </td>
+                                            <td>
+                                                10
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                2
+                                           </td>
+                                            <td>
+                                                 Nguyễn Hữu Tín
+                                            </td>
+                                            <td>
+                                                 11A1
+                                            </td>
+                                            <td>
+                                                 10
+                                            </td>
+                                            <td>
+                                                10
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                2
+                                           </td>
+                                            <td>
+                                                 Nguyễn Hữu Tín
+                                            </td>
+                                            <td>
+                                                 11A1
+                                            </td>
+                                            <td>
+                                                 10
+                                            </td>
+                                            <td>
+                                                10
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+{% endblock %}

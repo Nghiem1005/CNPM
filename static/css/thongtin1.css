@@ -1,0 +1,105 @@
+body{
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.portlet.box.blue{
+    border: 1px solid #7cacfa;
+    border-top: 0;
+}
+.portlet.box.blue > .portlet-title{
+    background-color: #4b8df8;
+    border-bottom: 0;
+    padding: 0 10px;
+    margin-bottom: 0;
+    color: #fff;
+
+}
+
+.portlet-body{
+    padding: 10px;
+}
+
+.portlet.box.blue > .portlet-title > .caption{
+    padding: 11px 0 9px 0;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.form .form-body{
+    padding: 10px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 5px;
+    max-width: 100%;
+}
+
+.btn{
+    padding: 8px 20px;
+}
+
+.form-actions{
+    padding: 20px 10px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e5e5e5;
+}
+
+.form-actions .btn-sub{
+    background-color: #1a6ef6;
+    color: white;
+    border: none;
+    border-radius: 0;
+    margin-right: 15px;
+}
+
+.form-actions .btn-cancel{
+    background-color: #e5e5e5;
+    color: #333;
+    border: none;
+    border-radius: 0;
+}
+
+.table-toolbar{
+    margin-bottom: 15px;
+}
+
+.btn.green{
+    background-color: #35aa47;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.edit-points{
+    width: 90px;
+}
+
+.inline{
+    display: flex;
+}
+
+.form-control.select{
+    width: 75%;
+}
+.form-group.inline{
+    width: 100%;
+    margin-right: 15px;
+}
+.inline .label_css{
+    display: block;
+    width: 25%;
+    margin-top: 6px;
+}
+.inline .radio_label_css{
+
+    margin-top: 6px;
+}

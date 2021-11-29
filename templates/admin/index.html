@@ -1,0 +1,14 @@
+{% extends 'admin/master.html' %}
+
+{% block body %}
+
+    {% if current_user.is_authenticated %}
+    <h1 class="text-center text-danger">Welcome {{ current_user.name }} to NHT School</h1>
+    <p>This is just a demo </p>
+
+    {% else %}
+        {% include 'layout/login.html' %}
+    {% endif %}
+
+
+{% endblock %}
